@@ -1,0 +1,28 @@
+
+.card {
+    background-color: inherit;
+    margin: 15px;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .marquee {
+    height: auto;
+    border-radius: 10px;
+    background: inherit;
+    box-shadow: none;
+  }
+  
+  .marquee-wrapper {
+    display: flex;
+  }
+  
+  .card:hover {
+    width: 150px;
+    height: 100px;
+  }
+  

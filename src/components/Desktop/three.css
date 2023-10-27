@@ -1,0 +1,916 @@
+.frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .frame .subhead {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .frame .subtext {
+    align-self: stretch;
+    color: #f4ffab;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .frame .h {
+    color: var(--typography-colortext-02);
+    font-family: "Syne", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+    width: 931px;
+  }
+  
+  .frame .div {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    position: relative;
+    width: 1204px;
+  }
+  
+  .frame .users {
+    -webkit-backdr--op-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: var(--bg-01);
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 24px;
+    height: 427px;
+    position: relative;
+    width: 472px;
+  }
+  
+  .frame .div-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 24px;
+    position: absolute;
+    top: 303px;
+  }
+  
+  .frame .text-wrapper {
+    color: var(--typography-colortext-01);
+    font-family: "Mabry Pro-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .p {
+    color: var(--typography-colortext-04);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 424px;
+  }
+  
+  .frame .img {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    border: 1px solid !important;
+    border-image: linear-gradient(to bottom, rgb(126, 126, 126), rgb(24, 24, 24)) 1 !important;
+    border-image-slice: 1;
+    border-radius: 10px ; /* Adjust the radius as needed */
+    
+
+    
+
+    height: 247px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    width: 424px;
+  }
+  
+  .frame .paifr {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 16px;
+    position: relative;
+    top: 16px;
+    width: 392px;
+  }
+  
+  .frame .div-3 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #141414;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .div-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #f6ffbb;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-3 {
+    color: #777777;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .div-5 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .div-6 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .frame .coinxx {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) 1;
+    border-radius: 48px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .frame .img-2 {
+    height: 36px;
+    object-fit: cover;
+    position: relative;
+    width: 36px;
+  }
+  
+  .frame .div-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-5 {
+    color: #8d8d8d;
+    font-family: "Mabry Pro-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .img-3 {
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .frame .frame-wrapper {
+    align-items: flex-end;
+    border: 0.5px solid;
+    border-color: var(--border-02);
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: -0.5px;
+    margin-right: -0.5px;
+    margin-top: -0.5px;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .frame .div-8 {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-7 {
+    color: #8d8d8d;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .overlap-group-wrapper {
+    height: 20px;
+    position: relative;
+    width: 392px;
+  }
+  
+  .frame .overlap-group {
+    height: 20px;
+    position: relative;
+  }
+  
+  .frame .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 392px;
+  }
+  
+  .frame .img-4 {
+    height: 20px;
+    left: 186px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .frame .traders {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: var(--black-bg);
+    border: 2px solid;
+    border-color: #111111;
+    border-radius: 24px;
+    height: 427px;
+    position: relative;
+    width: 708px;
+  }
+  
+  .frame .div-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 24px;
+    position: absolute;
+    top: 199px;
+  }
+  
+  .frame .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 660px;
+  }
+  
+  .frame .text {
+    align-self: stretch;
+    color: var(--typography-colortext-04);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+  }
+  
+  .frame .span {
+    color: #afafaf;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .frame .img-5 {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: #090909;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(126.44, 126.44, 126.44), rgb(24.44, 24.44, 24.44)) 1;
+    border-radius: 8px;
+    height: 143px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    width: 660px;
+  }
+  
+  .frame .div-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 416px;
+    position: absolute;
+    top: 13px;
+  }
+  
+  .frame .meter-guage {
+    height: 117px;
+    position: relative;
+    width: 231px;
+  }
+  
+  .frame .texts {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1px;
+    left: 73px;
+    position: absolute;
+    top: 73px;
+  }
+  
+  .frame .div-11 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-8 {
+    color: var(--typography-colortext-01);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-9 {
+    color: var(--typography-colortext-03);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-10 {
+    color: var(--typography-colortext-03);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+  }
+  
+  .frame .values {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 16px;
+    position: absolute;
+    top: 55px;
+    width: 361px;
+  }
+  
+  .frame .div-12 {
+    background-color: #2e2e2e;
+    border-radius: 46px;
+    height: 8px;
+    position: relative;
+    width: 90px;
+  }
+  
+  .frame .div-13 {
+    background-color: #1e1e1e;
+    border-radius: 46px;
+    height: 8px;
+    position: relative;
+    width: 130px;
+  }
+  
+  .frame .line-2 {
+    align-self: stretch;
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .div-14 {
+    background-color: #2e2e2e;
+    border-radius: 46px;
+    height: 8px;
+    position: relative;
+    width: 120px;
+  }
+  
+  .frame .div-15 {
+    background-color: #1e1e1e;
+    border-radius: 46px;
+    height: 8px;
+    position: relative;
+    width: 92px;
+  }
+  
+  .frame .liquidity-providers {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: var(--black-bg);
+    border: 2px solid;
+    border-color: #111111;
+    border-radius: 16px;
+    height: 427px;
+    position: relative;
+    width: 708px;
+  }
+  
+  .frame .div-16 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 24px;
+    position: absolute;
+    top: 231px;
+  }
+  
+  .frame .div-wrapper {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: #090909;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(126.44, 126.44, 126.44), rgb(24.44, 24.44, 24.44)) 1;
+    border-radius: 8px;
+    height: 175px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    width: 660px;
+  }
+  
+  .frame .div-17 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 16px;
+    position: relative;
+    top: 16px;
+  }
+  
+  .frame .div-18 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 628px;
+  }
+  
+  .frame .pair {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .frame .USDC-wrapper {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 48px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .frame .img-6 {
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 40px;
+  }
+  
+  .frame .image-wrapper {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 48px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    margin-left: -14px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .frame .frame-wrapper-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .frame .div-19 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .metric {
+    align-items: center;
+    background-color: #00170c;
+    border-radius: 4px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2px;
+    justify-content: center;
+    padding: 2px 4px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-12 {
+    color: #12b669;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .div-20 {
+    height: 24px;
+    position: relative;
+    width: 194px;
+  }
+  
+  .frame .div-21 {
+    background-color: #1e1e1e;
+    border-radius: 46px;
+    height: 8px;
+    left: 64px;
+    position: absolute;
+    top: 0;
+    width: 130px;
+  }
+  
+  .frame .div-22 {
+    background-color: #1e1e1e;
+    border-radius: 46px;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 194px;
+  }
+  
+  .frame .chart-line {
+    height: 59.75px;
+    margin-left: -0.75px;
+    margin-right: -0.75px;
+    position: relative;
+    width: 629.5px;
+  }
+  
+  .frame .info {
+    align-items: flex-start;
+    border-color: var(--border-01);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    padding: 12px 0px 0px;
+    position: relative;
+    width: 628px;
+  }
+  
+  .frame .div-23 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-13 {
+    color: #929292;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-14 {
+    color: var(--typography-colortext-01);
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .text-wrapper-15 {
+    color: #80dbb1;
+    font-family: "Mabry Pro-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .developers {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    border: 2px solid;
+    border-color: #111111;
+    border-radius: 16px;
+    height: 427px;
+    position: relative;
+    width: 472px;
+  }
+  
+  .frame .div-24 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 24px;
+    position: absolute;
+    top: 207px;
+  }
+  
+  .frame .code-snippet-wrapper {
+    -webkit-backdrop-filter: blur(43px) brightness(100%);
+    backdrop-filter: blur(43px) brightness(100%);
+    background-color: #0e0e0e;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(126.44, 126.44, 126.44), rgb(24.44, 24.44, 24.44)) 1;
+    border-radius: 8px;
+    height: 151px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    width: 424px;
+  }
+  
+  .frame .code-snippet {
+    align-items: flex-start;
+    background-color: var(--black-bg);
+    border-radius: 6.48px;
+    display: flex;
+    justify-content: center;
+    left: 12px;
+    overflow: hidden;
+    position: relative;
+    top: 12px;
+    width: 583.52px;
+  }
+  
+  .frame .sidebar {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--border-01);
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 19.45px;
+    position: relative;
+  }
+  
+  .frame .flexcontainer-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.81px;
+  }
+  
+  .frame .span-wrapper {
+    align-self: stretch;
+    color: var(--gray-400);
+    font-family: "Roboto Mono", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-16 {
+    color: #98a1b2;
+    font-family: "Roboto Mono", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .frame .content {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    padding: 19.45px 19.45px 25.93px;
+    position: relative;
+  }
+  
+  .frame .flexcontainer-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.81px;
+  }
+  
+  .frame .text-2 {
+    align-self: stretch;
+    color: transparent;
+    font-family: "Roboto Mono", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-17 {
+    color: #6be9a6;
+  }
+  
+  .frame .text-wrapper-18 {
+    color: #f9a7df;
+  }
+  
+  .frame .text-wrapper-19 {
+    color: #f8f9fb;
+  }
+  
+  .frame .text-wrapper-20 {
+    color: #84caff;
+  }
+  

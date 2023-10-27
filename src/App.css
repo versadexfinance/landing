@@ -1,0 +1,24 @@
+/* In your CSS file */
+body {
+    user-select: none; /* Disable text selection */
+  }
+  
+  /* Optionally, you can disable the context menu as well */
+  body {
+    user-select: none; /* Disable text selection */
+    -webkit-user-select: none; /* Disable text selection on iOS Safari */
+    -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  }
+  
+  /* Allow text selection within specific elements */
+  .allow-selection {
+    user-select: text; /* Allow text selection within elements with this class */
+
+  }
+  /* In your CSS file */
+img {
+    user-drag: none; /* Disable image dragging (drag and drop) */
+    pointer-events: none; /* Make images non-interactive */
+  }
+  
+  
