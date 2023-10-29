@@ -47,7 +47,7 @@ top: 7px;
 color: #fff;
 text-decoration: none;
     list-style: none;
-    left: 230px !important;
+    left: 13rem !important;
 }
 
 .app__navbar-links li {
@@ -236,7 +236,18 @@ text-decoration: none;
   .app__navbar.sticky {
     position: fixed;
     top: 0;
-    background-color: #3535356d; /* Change background color on scroll */
+    background: rgba(20, 20, 20, 0.536);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+
+
+
+
+
+
   }
   

@@ -54,14 +54,7 @@ const Navbar = () => {
             Testnet
           </a>
         </li>{" "}
-        <li className="p__opensans">
-          <a
-            href=""
-            style={{ color: "#fff", fontWeight: "500", textDecoration: "none" }}
-          >
-            Team
-          </a>
-        </li>{" "}
+    
       </ul>
 
       <ul className="app__navbar-linkss">
@@ -97,15 +90,7 @@ const Navbar = () => {
                   Utility Token
                 </a>
               </li>
-              <li className="li">
-                <a
-                  href="#IbizaPay"
-                  onClick={() => setToggleMenu(false)}
-                  style={{ color: "#fff", fontWeight: "800" }}
-                >
-                  IbizaPay
-                </a>
-              </li>{" "}
+          
             </ul>
           </div>
         )}

@@ -7,9 +7,9 @@ import { useTheme } from "@mui/material/styles";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../components/Desktop/Hero";
 import SwapDesign from "../components/Desktop/SwapDesign";
-import SectionThree from "../components/Desktop/SectionThree";
+import SectionThree from "../components/Desktop/SectionThreeX";
 import Footer from "../components/Desktop/Footer";
-import Defi from '../components/Desktop/Defi'
+import Defi from '../components/Desktop/FooterX'
 import Yield from '../components/Desktop/Yield'
 
 

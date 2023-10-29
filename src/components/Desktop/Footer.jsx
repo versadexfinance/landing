@@ -44,7 +44,7 @@ function Footer() {
 
 
           <div className="header-btn">
- <div className="participate-in">PARTICIPATE IN TESTNET</div>
+ <div className="participate-in"   style={{ cursor: 'pointer' }}>PARTICIPATE IN TESTNET</div>
  </div>
 
           </div>
@@ -69,11 +69,7 @@ function Footer() {
  <div className="text-wrapper">Testnet</div>
  </div></a>
        
-     &nbsp;&nbsp;&nbsp;&nbsp;
-         <a href=''  style={{textDecoration:"none"}}>
-         <div className="label">
- <div className="text-wrapper">Team</div>
- </div></a>
+   
 
                      
 </Grid>

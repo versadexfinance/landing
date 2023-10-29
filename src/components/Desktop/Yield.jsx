@@ -14,7 +14,7 @@ import Y6 from './images/Y6.svg'
 
 function Yield() {
   return (
-    <div>
+    <div className='container'>
 
 <br/><br/><br/>
 <Grid container className=''>
@@ -48,7 +48,7 @@ function Yield() {
                <br/><br/>
 
 
-               <Grid container >
+               <Grid container spacing={3} >
 
                                <Grid item lg={4} md={4} xs={12} sm={12} className='centeritall'>
                              
@@ -57,7 +57,7 @@ function Yield() {
 
 
    
-                               <img src={Y1} />
+                               <img src={Y1}  style={{width:"100%"}}/>
           
           
         
@@ -70,7 +70,7 @@ function Yield() {
 
 
    
-                             <img src={Y2} />
+                             <img src={Y2}  style={{width:"100%"}}/>
         
         
       
@@ -84,38 +84,7 @@ function Yield() {
 
 
    
-                             <img src={Y3} />
-        
-        
-      
-   
-                             </Grid>
-
-
-                             <Grid item lg={4} md={4} xs={12} sm={12} className='centeritall'>
-                             
-                            
-                              
-
-
-   
-                             <img src={Y4} />
-        
-        
-      
-   
-                             </Grid>
-
-
-
-                             <Grid item lg={4} md={4} xs={12} sm={12} className='centeritall'>
-                             
-                            
-                              
-
-
-   
-                             <img src={Y5} />
+                             <img src={Y3} style={{width:"100%"}} />
         
         
       
@@ -130,7 +99,38 @@ function Yield() {
 
 
    
-                             <img src={Y6} />
+                             <img src={Y4} style={{width:"100%"}} />
+        
+        
+      
+   
+                             </Grid>
+
+
+
+                             <Grid item lg={4} md={4} xs={12} sm={12} className='centeritall'>
+                             
+                            
+                              
+
+
+   
+                             <img src={Y5}  style={{width:"100%"}}/>
+        
+        
+      
+   
+                             </Grid>
+
+
+                             <Grid item lg={4} md={4} xs={12} sm={12} className='centeritall'>
+                             
+                            
+                              
+
+
+   
+                             <img src={Y6}  style={{width:"100%"}}/>
         
         
       

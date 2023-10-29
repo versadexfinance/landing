@@ -25,27 +25,29 @@ function Hero() {
            <Grid container spacing={1}>
 
            <Grid item md={12} xs={12} lg={12}>
-            <br/> <br/>
+          
             
-            <img src={Check} style={{position:"relative" , top:"10px" , left:"150px"}}  data-aos="fade-in" className='vert-move'/>
-            <img src={Check2} style={{position:"relative" , top:"250px" , left:"940px"}}  data-aos="fade-in" className='vert-move'/>
+            <img src={Check} style={{position:"relative" , top:"3rem" , left:"10rem"}}  data-aos="fade-in" className='vert-move'/>
+            <img src={Check2} style={{position:"relative" , top:"13rem" , left:"60rem"}}  data-aos="fade-in" className='vert-move'/>
           
            <div className="labeltop">
  <div className="htop">
  DeFi In Your
  <br />
- Own Way!
+ Own Way
  </div>
  </div>
  <br/> <br/>
  <p className="subtext">
- Discover VersaDex, a decentralized platform built around YOU, powered by <br/> a pioneering Web3 e
- suite of innovative features, ensuring secure,  <br/>seamless, and efficient financial interaction
- </p>
+ Versadex  is a novel decentralized platform designed around YOU,<br/> leveraging a leading-edge versatile engine to provide a suite of innovative features <br/>for secure, seamless, and efficient financial engagements
  <br/> <br/>
+Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's<br/> tailored solutions are ready to meet your needs.
+Have it your way, the time is NOW!
+ </p>
 
- <img src={Check3} style={{position:"relative" , top:"10px" , left:"200px"}} data-aos="fade-in"  className='vert-move'/>
-            <img src={Check4} style={{position:"relative" , top:"20px" , left:"820px"}} data-aos="fade-in" className='vert-move'/>
+
+ <img src={Check3} style={{position:"relative" , top:"1rem" , left:"12rem"}} data-aos=""  className='vert-move'/>
+            <img src={Check4} style={{position:"relative" , top:"1rem" , left:"50rem"}} data-aos="" className='vert-move'/>
  <a
                   type="submit"
                   className='centeritall'

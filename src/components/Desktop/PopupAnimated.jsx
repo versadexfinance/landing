@@ -18,16 +18,18 @@ export default function AnimatedPopup() {
   return (
     <div>
       <a
-        ref={setAnchor}
-        onClick={() => setOpen((o) => !o)}
-        type="button"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="header-btn">
-          <div className="participate-in">LAUNCH APP</div>
-        </div>
-      </a>
+  ref={setAnchor}
+  onClick={() => setOpen((o) => !o)}
+  type="button"
+  onMouseEnter={handleMouseEnter}
+  onMouseLeave={handleMouseLeave}
+  style={{ cursor: 'pointer' }}
+>
+  <div className="header-btn">
+    <div className="participate-in">LAUNCH APP</div>
+  </div>
+</a>
+
       <BasePopup anchor={anchor} open={open} withTransition>
         {(props) => (
           <>

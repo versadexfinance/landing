@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Syne', sans-serif !important;
+}
 .dividernav{
     height: 0.6px;
     background-color: rgba(95, 95, 95, 0.327);
 }
 body{
     background-color: black !important;
+  
   }
 
 
