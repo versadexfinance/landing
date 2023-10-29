@@ -29,12 +29,12 @@ function Footer() {
  <p className="textp">
  <span className="text-wrapperp">
  Particpating in the Testnet is easy!
- <br />
+
  </span>
  </p>
  <p className="textp">
  <span className="text-wrapperp">
- Click the button below, bookmark it  <br />and stand ready when the timer finishes  <br />counting dow
+ Click the button below, bookmark it <br />  and stand ready when the timer finishes counting dow
  </span>
  </p>
  </div>
