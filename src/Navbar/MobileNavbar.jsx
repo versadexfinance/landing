@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-
+import AnimatedPopup from "../components/Desktop/PopupAnimated";
 import { NavDropdown } from "react-bootstrap";
 
 
@@ -160,22 +160,10 @@ const Navbar = () => {
               
               </li>{" "}
               <br/> 
-              <li className="li">
-                <a
-                  href=""
-                  onClick={() => setToggleMenu(false)}
-                  style={{ color: "#fff", fontWeight: "500" , fontSize:"25px" }}
-                >
-               Team
-                </a>
-
-              
-              </li>{" "}
+            
               <br/> 
         
- <div className='centeritall'> <div className="header-btn">
- <div className="participate-in">LAUNCH APP</div>
- </div></div>
+ <div className='centeritall'>  <AnimatedPopup/></div>
 
  <br/> 
               

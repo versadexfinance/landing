@@ -73,7 +73,7 @@ function DefiMobile() {
 <br/><br/>
 
 
-<Grid container spacing={1}>
+<Grid container spacing={2}>
 
 <Grid item md={4} sm={12} xs={12} className='centeritall'>
 <img src={T1} style={{width:"100%"}}/>
@@ -142,7 +142,7 @@ function DefiMobile() {
 
                </Grid>
                <br/><br/>
-    <Grid container spacing={1}>
+    <Grid container spacing={2}>
 
     <Grid item md={4} sm={12} xs={12} className='centeritall'>
     <img src={Y1} style={{width:"100%"}}/>
