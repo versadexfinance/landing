@@ -21,7 +21,7 @@ function HeroMobile() {
  <p className="subtextmm">
  Versadex  is a novel decentralized platform designed your needs , leveraging a leading-edge versatile engine to provide a suite of innovative features <br/>for secure, seamless, and efficient financial engagements
  <br/> <br/>
-Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's tailored solutions are ready to meet your needs.
+
 
  </p>
  <br/> <br/>

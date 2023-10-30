@@ -16,11 +16,10 @@ function SectionThree() {
     <div className='contianer '>
 <div className="frame centeritall">
       <div className="subhead">
-        <p className="subtext">
-          Whether you&#39;re a DEX User, Trader, Liquidity Provider, or Developer, VersaDex&#39;s tailored solutions are<br />
-          ready to meet your needs. Your personalized DeFi journey awaits; the time to explore is NOW!
+        <p className="subtext" style={{ fontWeight:"800"}}>
+        Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's<br/> tailored solutions are ready to meet your needs.
         </p>
-        <p className="h">Have it your way, the time is NOW!</p>
+
       </div>
   
     </div> <br/>

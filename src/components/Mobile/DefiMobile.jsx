@@ -53,8 +53,8 @@ function DefiMobile() {
                                <div className="labelp">
  <div className="flexcontainerp">
  <p className="textp">
- <span className="text-wrapperp" style={{color:"#F5FFAB"}}>
- Whether you're a DEX User, Trader, Liquidity Provider, or Developer, VersaDex's tailored solutions are ready to meet your needs. Your personalized DeFi journey awaits; the time to explore is NOW!
+ <span className="text-wrapperp" style={{color:"#F5FFAB" , fontWeight:"800"}}>
+ Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's<br/> tailored solutions are ready to meet your needs.
  <br />
  </span>
  </p>
@@ -62,7 +62,7 @@ function DefiMobile() {
  </div>
  </div>
  <br/>
- <p className="h_testnet_mobile">Have it your way, the time is NOW!</p>  
+
           
         
           <br/>
