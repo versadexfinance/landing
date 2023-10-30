@@ -19,8 +19,10 @@ function HeroMobile() {
  </div>
  <br/> <br/>
  <p className="subtextmm">
- Discover VersaDex, a decentralized platform built around YOU, powered by  a pioneering Web3 e
- suite of innovative features, ensuring secure, seamless, and efficient financial interaction
+ Versadex  is a novel decentralized platform designed around YOU, leveraging a leading-edge versatile engine to provide a suite of innovative features <br/>for secure, seamless, and efficient financial engagements
+ <br/> <br/>
+Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's tailored solutions are ready to meet your needs.
+Have it your way, the time is NOW!
  </p>
  <br/> <br/>
  <div className='centeritall'> <AnimatedPopup/></div>
