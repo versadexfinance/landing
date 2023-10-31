@@ -46,7 +46,7 @@ function Footer() {
 
 
           <div className="header-btn">
- <div className="participate-in">PARTICIPATE IN TESTNET</div>
+ <div className="participate-in">JOIN</div>
  </div>
 
           </div>
