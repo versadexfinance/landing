@@ -44,7 +44,7 @@ function Footer() {
 
 
           <div className="header-btn">
- <div className="participate-in"   style={{ cursor: 'pointer' }}>PARTICIPATE IN TESTNET</div>
+ <div className="participate-in"   style={{ cursor: 'pointer' }}>JOIN</div>
  </div>
 
           </div>

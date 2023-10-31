@@ -40,7 +40,8 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a
-            href=""
+            href="https://docs.versadex.finance/"
+            target="_blank"
             style={{ color: "#fff", fontWeight: "500", textDecoration: "none" }}
           >
             Docs

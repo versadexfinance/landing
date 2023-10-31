@@ -96,7 +96,7 @@ export default function SignIn() {
             >
               
               <div className="header-btn">
- <div className="participate-in"   style={{ cursor: 'pointer' }}>Send Email</div>
+ <div className="participate-in"   style={{ cursor: 'pointer' }}>SEND EMAIL</div>
  </div>
             </a>
            
