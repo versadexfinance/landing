@@ -16,8 +16,8 @@ function SectionThree() {
     <div className='contianer '>
 <div className="frame centeritall">
       <div className="subhead">
-        <p className="subtext" style={{ fontWeight:"800"}}>
-        Whether you're a DEX User, Trader, Liquidity Provider, or Developer, Versadex's<br/> tailored solutions are ready to meet your needs.
+        <p className="subtext" style={{ fontWeight:"700"}}>
+        Whether you're a DEX User, Trader, Liquidity Provider, or Developer, <br/>Versadex's tailored solutions are ready to meet your needs.
         </p>
 
       </div>
