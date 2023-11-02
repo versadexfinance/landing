@@ -41,7 +41,7 @@ background-color: #080a3e00;
 
 }
 
-.app__navbar-links {
+.app__navbar-linkst {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -51,10 +51,10 @@ top: 7px;
 color: #fff;
 text-decoration: none;
     list-style: none;
-    left: 15rem!important;
+    left: 10rem!important;
 }
 
-.app__navbar-links li {
+.app__navbar-linkst li {
     margin: 0 1rem;
     text-decoration: none;
     color: #fff;

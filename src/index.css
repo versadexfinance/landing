@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 *{
-    font-family: 'Syne', sans-serif !important;
+  
+
 }
 .dividernav{
     height: 0.6px;
-    background-color: rgba(95, 95, 95, 0.327);
+    background-color: #4a4a4a;
 }
 body{
     background-color: black !important;
-  
+    overflow-x: hidden;
   }
-
+  @font-face {
+    font-family: 'MyCustomFont';
+    src: url('./fonts/mabp.ttf') format('truetype');
+  }
+  
 
 .hero_section_bg{
       background-image: url('./image/Hedo.png');
@@ -84,7 +89,7 @@ background-position-x: center;
    }
    .label .text-wrapper {
     color: var(--typography-colortext-02);
-    font-family: "Mabry Pro-Medium", Helvetica;
+    font-family: 'MyCustomFont';
     font-size: 18px;
     font-weight: 500;
     left: 0;
@@ -104,7 +109,7 @@ text-decoration:  none !important;
    }
    .labels .text-wrappers {
     color: #4c4c4c;
-    font-family: "Mabry Pro-Medium", Helvetica;
+    font-family: 'MyCustomFont' !important;
     font-size: 18px;
     font-weight: 500;
     left: 0;
@@ -120,8 +125,8 @@ text-decoration:  none !important;
    .h_testnet{
     
         color: #fff;
-        font-family: "Syne-Bold", Helvetica;
-        font-size: 40px;
+        font-family: 'Syne', sans-serif !important;
+        font-size: 40px !important;
         font-weight: 700;
         left: 0;
         letter-spacing: 0;
@@ -171,7 +176,7 @@ height: 100% !important;
    .labelp .textp {
     align-self: stretch;
     color: #bfbfbf;
-    font-family: "Mabry Pro-Medium", Helvetica;
+    font-family: 'MyCustomFont';
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -181,7 +186,7 @@ height: 100% !important;
    }
    .labelp .text-wrapperp {
     color: #bfbfbf;
-    font-family: "Mabry Pro-Medium", Helvetica;
+    font-family: 'MyCustomFont';
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -201,10 +206,38 @@ height: 100% !important;
     justify-content: center;
     padding: 16px 40px;
     position: relative;
+    font-family: 'MyCustomFont' !important;
+    height: 45px;
    }
    .header-btn .participate-in {
     color: var(--typography-colortext-07);
-    font-family: "Mabry Pro-Bold", Helvetica;
+    font-family: 'MyCustomFont';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+   }
+
+   .header-btnnav {
+    align-items: center;
+    background: linear-gradient(180deg, rgb(235, 254, 100) 0%, rgb(140, 234, 105) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 16px 40px;
+    position: relative;
+    height: 45px;
+   }
+   .header-btnnav .participate-innav {
+    color: var(--typography-colortext-07);
+    font-family: 'MyCustomFont';
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0;
@@ -218,18 +251,18 @@ height: 100% !important;
 
 
    .back_of_field {
-    background-color: rgba(110, 114, 107, 0.69) !important; /* Adjust the color and opacity as desired */
-    border-radius: 5px !important;
+    background-color: #101010 !important; /* Adjust the color and opacity as desired */
+    border-radius: 10px !important;
     color: #ffffff !important;
- 
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2) !important; /* Adding a subtle white shadow for the glassy effect */
+ font-family: MyCustomFont !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important; /* Adding a subtle white shadow for the glassy effect */
     -webkit-backdrop-filter: blur(30px) brightness(100%) !important;
     backdrop-filter: blur(30px) brightness(100%) !important;
-    background: linear-gradient(180deg, rgba(235, 254, 100, 0.03) 0%, rgba(140, 234, 105, 0.03) 100%) !important;
-    border: 1px solid !important;
+   
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
   
-    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)) 1 !important;
-    border-radius: 16px 16px 0px 0px !important;
+    
+
 }
 
 
@@ -241,7 +274,7 @@ height: 100% !important;
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(206.13, 206.13, 206.13) 100%);
     background-clip: text;
     color: transparent;
-    font-family: "Syne-Bold", Helvetica;
+    font-family: 'Syne', sans-serif !important;
     font-size: 96px;
     font-weight: 700;
     left: 0;
@@ -259,7 +292,7 @@ height: 100% !important;
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(206.13, 206.13, 206.13) 100%);
     background-clip: text;
     color: transparent;
-    font-family: "Syne-Bold", Helvetica;
+    font-family: 'Syne', sans-serif !important;
     font-size: 46px;
     font-weight: 700;
     left: 0;
@@ -273,7 +306,7 @@ height: 100% !important;
    }
    .subtext {
     color: var(--typography-colortext-02);
-    font-family: "Mabry Pro-Regular", Helvetica;
+    font-family: 'MyCustomFont';
     font-size: 20px;
     font-weight: 400;
     left: 0;
@@ -285,8 +318,8 @@ height: 100% !important;
    }
    .subtextmm {
     color: var(--typography-colortext-02);
-    font-family: "Mabry Pro-Regular", Helvetica;
-    font-size: 18px;
+    font-family: 'MyCustomFont';
+    font-size: 15px;
     font-weight: 400;
     left: 0;
     letter-spacing: 0;
@@ -307,7 +340,7 @@ height: 100% !important;
   .h_testnet_mobile {
     
     color: #fff;
-    font-family: "Syne-Bold", Helvetica;
+    font-family: 'Syne', sans-serif !important;
     font-size: 30px;
     font-weight: 700;
     left: 0;
@@ -359,3 +392,87 @@ img.vert-move {
 .zzz{
     z-index: -100 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.labeltop .htoptab {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(206.13, 206.13, 206.13) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Syne', sans-serif !important;
+    font-size: 66px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 104px;
+
+    text-align: center;
+
+    top: 0;
+
+   }
+  
+   .subtexttab {
+    color: var(--typography-colortext-02);
+    font-family: 'MyCustomFont';
+    font-size: 17px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    top: 0;
+    
+   }

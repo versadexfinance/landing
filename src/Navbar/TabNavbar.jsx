@@ -3,7 +3,7 @@ import "../components/styles.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import images from "./logo/versa.png";
-import "./Navbars.css";
+import "./TabNavbars.css";
 import AnimatedPopup from "../components/Desktop/PopupNav";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -37,7 +37,7 @@ const Navbar = () => {
         <img src={images} alt="app__logo" />
       </div>
 
-      <ul className="app__navbar-links">
+      <ul className="app__navbar-linkst" >
         <li className="p__opensans">
           <a
             href="https://docs.versadex.finance/"

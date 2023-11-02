@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid } from '@mui/material'
-import dum from './images/dum.svg'
+import dum from './images/dumsh.svg'
 
 function SwapDesign() {
   return (

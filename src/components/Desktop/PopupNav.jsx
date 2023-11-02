@@ -25,19 +25,11 @@ export default function AnimatedPopup() {
   onMouseLeave={handleMouseLeave}
   style={{ cursor: 'pointer' }}
 >
-  <div className="header-btn">
-    <div className="participate-in">LAUNCH APP</div>
+  <div className="header-btnnav">
+    <div className="participate-innav">LAUNCH APP</div>
   </div>
-
-  <p style={{textAlign:"center" , color:"#fff"}}>  <br/>Coming Soon</p>
 </a>
-        {/*<BasePopup anchor={anchor} open={open} withTransition>
-        {(props) => (
-          <>
-            <PopupBody>Coming Soon</PopupBody>
-          </>
-        )}
-      </BasePopup> */}
+
       
     </div>
   );

@@ -27,19 +27,19 @@ function Hero() {
            <Grid item md={12} xs={12} lg={12}>
           
             
-            <img src={Check} style={{position:"relative" , top:"3rem" , left:"12rem" , width:"210px"}}  data-aos="fade-in" className='vert-move'/>
-            <img src={Check2} style={{position:"relative" , top:"13rem" , left:"59rem" , width:"210px"}}  data-aos="fade-in" className='vert-move'/>
+            <img src={Check} style={{position:"relative" , top:"7rem" , left:"14rem" , width:"170px"}}  data-aos="fade-in" className='vert-move'/>
+            <img src={Check2} style={{position:"relative" , top:"13rem" , left:"55rem" , width:"170px"}}  data-aos="fade-in" className='vert-move'/>
         
            <div className="labeltop">
-            <br/>
- <div className="htop">
+ <div className="htoptab">
+    <br/>
  DeFi In Your
  <br />
  Own Way
  </div>
  </div>
  <br/> <br/>
- <p className="subtext">
+ <p className="subtexttab">
  Versadex  is a novel decentralized platform designed around your needs,<br/> leveraging a leading-edge versatile engine to provide a suite of innovative features <br/>for secure, seamless, and efficient financial engagements
  <br/> <br/>
 
@@ -47,8 +47,8 @@ function Hero() {
  </p>
 
 
- <img src={Check3} style={{position:"relative" , top:"1rem" , left:"20rem" , width:"210px"}} data-aos=""  className='vert-move'/>
-            <img src={Check4} style={{position:"relative" , top:"1rem" , left:"48rem" , width:"210px"}} data-aos="" className='vert-move'/>
+ <img src={Check3} style={{position:"relative" , top:"1rem" , left:"14rem" , width:"170px"}} data-aos=""  className='vert-move'/>
+            <img src={Check4} style={{position:"relative" , top:"1rem" , left:"47rem" , width:"170px"}} data-aos="" className='vert-move'/>
  <a
                   type="submit"
                   className='centeritall'

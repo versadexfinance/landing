@@ -38,46 +38,47 @@ export default function SignIn() {
         >
       
           <Typography component="h1" variant="h5" className='h_testnet'>
-      Contact us
+          Contact Us
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
           <TextField
-          id="filled-multiline-flexible"
-          label="Full Name"
-          multiline
-          name='name'
-          margin="normal"
-          InputProps={{ style: { color: 'green' } }} // Change text color to green
-          color="success"
-          required
-          fullWidth
-          InputLabelProps={{ style: { color: 'green' } }} // Change label color to green
-          variant="filled"
-          className='back_of_field'
-        />
+  id="filled-multiline-flexible"
+  label={<span>Name <span style={{ color: '#FFD166' }}>*</span></span>}
+  multiline
+  name='name'
+  margin="normal"
+  InputProps={{ style: { color: '#797979' } }} // Change text color to green
+  color="success"
+  fullWidth
+  InputLabelProps={{ style: { color: '#797979' } }} // Change label color to green
+  variant="filled"
+  className='back_of_field'
+/>
+
         
             <TextField
               margin="normal"
-              required
+          
               fullWidth
               variant="filled"
               id="email"
-              label="Email Address"
+              label={<span>Email address <span style={{ color: '#FFD166' }}>*</span></span>}
+         
               name="email"
               autoComplete="email"
           
               color="success"
-              InputProps={{ style: { color: 'green' } }} // Change text color to green
+              InputProps={{ style: { color: '#797979' } }} // Change text color to green
                   className='back_of_field'
-                  InputLabelProps={{ style: { color: 'green' } }} // Change label color to green
+                  InputLabelProps={{ style: { color: '#797979' } }} // Change label color to green
             />
            
            <TextField
         id="message"
-        label="Message"
+       
         multiline
         margin="normal"
-        required
+        label={<span>Message <span style={{ color: '#FFD166' }}>*</span></span>}
         fullWidth
         
         variant="filled"
@@ -85,9 +86,9 @@ export default function SignIn() {
         className='back_of_field'
         rows={4}
         value={message}
-        InputLabelProps={{ style: { color: 'green' } }} // Change label color to green
+        InputLabelProps={{ style: { color: '#797979' } }} // Change label color to green
         onChange={handleInputChange}
-        InputProps={{ style: { color: 'green' } }} // Change text color to green
+        InputProps={{ style: { color: '#797979' } }} // Change text color to green
       />
       <br/>  <br/>
             <a
@@ -96,7 +97,7 @@ export default function SignIn() {
             >
               
               <div className="header-btn">
- <div className="participate-in"   style={{ cursor: 'pointer' }}>SEND EMAIL</div>
+ <div className="participate-in"   style={{ cursor: 'pointer' }}>SUBMIT</div>
  </div>
             </a>
            

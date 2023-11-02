@@ -1,20 +1,20 @@
 import React from 'react'
 import './three.css'
 import { Grid } from '@mui/material'
-import user from './images/users.svg'
+import user from './images/usersn.svg'
 
-import traders from './images/traders.svg'
+import traders from './images/tradersn.svg'
 
-import liquidity from './images/liquidity providers.svg'
+import liquidity from './images/liquidityprovidersn.svg'
 
-import developers from './images/developers.svg'
+import developers from './images/developersn.svg'
 
 
 
 function SectionThree() {
   return (
     <div className='contianer '>
-<div className="frame centeritall">
+<div className="frame centeritall"><br/>
       <div className="subhead">
         <p className="subtext" style={{ fontWeight:"700"}}>
         Whether you're a DEX User, Trader, Liquidity Provider, or Developer, <br/>Versadex's tailored solutions are ready to meet your needs.

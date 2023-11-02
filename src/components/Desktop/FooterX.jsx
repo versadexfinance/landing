@@ -1,6 +1,6 @@
 import React from 'react'
 import './Defi.css'
-import icon from './images/mobiledef.svg'
+import icon from './images/mbd.png'
 function Defi() {
   return (
     <div className='centeritall'>

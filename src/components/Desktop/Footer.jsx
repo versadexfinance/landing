@@ -17,7 +17,7 @@ function Footer() {
                <Grid container className='testnet_section'>
 
                                <Grid item lg={12} md={12} xs={12} sm={12}>
-
+                               <br/><br/>
                                <p className="h_testnet">How to join the Testnet?</p>
                                <br/>
 
@@ -26,15 +26,13 @@ function Footer() {
  <div className="flexcontainerp">
  <p className="textp">
  <span className="text-wrapperp">
- Particpating in the Testnet is easy!
+ Particpating in the Testnet is easy! <br/>
+
+ Click the button below, bookmark it and stand ready when the timer finishes counting dow
  <br />
  </span>
  </p>
- <p className="textp">
- <span className="text-wrapperp">
- Click the button below, bookmark it and stand ready when the timer finishes counting dow
- </span>
- </p>
+
  </div>
  </div>
           
@@ -44,7 +42,7 @@ function Footer() {
 
 
           <div className="header-btn">
- <div className="participate-in"   style={{ cursor: 'pointer' }}>JOIN</div>
+ <div className="participate-in"   style={{ cursor: 'pointer'  }}>JOIN</div>
  </div>
 
           </div>

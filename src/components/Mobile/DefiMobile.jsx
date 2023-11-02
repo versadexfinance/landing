@@ -4,7 +4,7 @@ import { Grid } from '@mui/material'
 import Y1 from './image/Ym1.svg'
 import Y2 from './image/Ym2.svg'
 import Y3 from './image/Ym3.svg'
-import Y4 from './image/Ym4.svg'
+import Y4 from './image/safeguardmo.png'
 import Y5 from './image/Ym5.svg'
 import Y6 from './image/Ym6.svg'
 
@@ -17,30 +17,22 @@ import Dum from './image/dum_mobile.svg'
 
 import glow from './image/mglow.svg'
 
-import MobileDefi from './image/mobiledefi.svg'
+import MobileDefi from './image/dumb.png'
 function DefiMobile() {
   return (
-    <div className='container'>
+    <div className=''>
 <br/><br/>
+<Grid container className=''>
 
-<Grid container spacing={1}>
-
-<Grid item md={6} sm={12} xs={12} className='centeritall'>
+                               <Grid item lg={6} md={6} xs={12} sm={12}>
+                               <div className='centeritall'>
 <img src={Dum} style={{width:"100%"}}/>
 
+</div>
+                                </Grid></Grid>
 
 
-</Grid>
-
-
-
-
-
-
-
-</Grid>
-
-<br/><br/>
+<div className='container'><br/><br/>
 <Grid container className=''>
 
                                <Grid item lg={12} md={12} xs={12} sm={12}>
@@ -202,6 +194,7 @@ function DefiMobile() {
     </Grid>
 
 <br/>
+</div>
 
 
     </div>

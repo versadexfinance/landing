@@ -26,25 +26,21 @@ function Footer() {
 
                                <div className="labelp">
  <div className="flexcontainerp">
+
  <p className="textp">
  <span className="text-wrapperp">
  Particpating in the Testnet is easy!
-
- </span>
- </p>
- <p className="textp">
- <span className="text-wrapperp">
- Click the button below, bookmark it <br />  and stand ready when the timer finishes counting dow
+ Click the button below, bookmark it  and stand ready when the timer finishes counting dow
  </span>
  </p>
  </div>
  </div>
           
           
-          
+ <br/>
           <div className='centeritall'>
 
-
+  <br/>
           <div className="header-btn">
  <div className="participate-in">JOIN</div>
  </div>

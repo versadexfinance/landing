@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "rsuite/styles/index.less";
 
-import Home from "./pages/Home";
+import Home from "./pages/HomeX";
 
 import theme from "./Theme";
 import { ThemeProvider } from "@mui/material/styles";

@@ -3,12 +3,12 @@ import { Grid } from '@mui/material'
 import glow from './images/glow.svg'
 
 
-import Y1 from './images/Y1.svg'
-import Y2 from './images/Y2.svg'
-import Y3 from './images/Y3.svg'
-import Y4 from './images/Y4.svg'
-import Y5 from './images/Y5.svg'
-import Y6 from './images/Y6.svg'
+import Y1 from './images/tokengenesisn.svg'
+import Y2 from './images/AITrading Strategyn.svg'
+import Y3 from './images/telegrambot automationn.svg'
+import Y4 from './images/safeguard.png'
+import Y5 from './images/DTOn.svg'
+import Y6 from './images/Yieldn.svg'
 
 
 
