@@ -3,11 +3,11 @@ import './three.css'
 import { Grid } from '@mui/material'
 import user from './images/usersn.svg'
 
-import traders from './images/tradersn.svg'
+import traders from './images/traders.png'
 
 import liquidity from './images/liquidityprovidersn.svg'
 
-import developers from './images/developersn.svg'
+import developers from './images/developers.png'
 
 
 
@@ -28,7 +28,7 @@ function SectionThree() {
     <Grid container spacing={2}>
 
 <Grid item md={5} lg={5}>
-  <img src={user} style={{width:"100%" , height:"100%"}}/>
+  <img src={user} style={{width:"100%" , height:"100%" , position:"relative" , top:"0px"} }/>
 
 
     
@@ -40,13 +40,13 @@ function SectionThree() {
     
 </Grid>
 <Grid item md={7} lg={7}>
-  <img src={liquidity} style={{width:"100%" , height:"100%"}}/>
+  <img src={liquidity} style={{width:"100%" , height:"100%" }}/>
 
 
     
 </Grid>
 <Grid item md={5} lg={5}>
-  <img src={developers} style={{width:"100%" , height:"100%"}}/>
+  <img src={developers} style={{width:"100%" , height:"95%" , position:"relative" , top:"12px"}}/>
 
 
     

@@ -60,17 +60,18 @@ export default function SignIn() {
               margin="normal"
           
               fullWidth
-              variant="filled"
-              id="email"
               label={<span>Email address <span style={{ color: '#FFD166' }}>*</span></span>}
-         
+              variant="filled"
+     
+              InputProps={{ style: { color: '#797979' } }} // Change text color to green
+              className='back_of_field'
+              InputLabelProps={{ style: { color: '#797979' } }} // Change label color to green
+              color="success"
               name="email"
               autoComplete="email"
-          
-              color="success"
-              InputProps={{ style: { color: '#797979' } }} // Change text color to green
-                  className='back_of_field'
-                  InputLabelProps={{ style: { color: '#797979' } }} // Change label color to green
+              id="email"
+             
+         
             />
            
            <TextField

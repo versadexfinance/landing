@@ -21,6 +21,8 @@ export default function AnimatedPopup() {
   ref={setAnchor}
   onClick={() => setOpen((o) => !o)}
   type="button"
+  href='https://app.versadex.finance/swap'
+  target='_blank'
   onMouseEnter={handleMouseEnter}
   onMouseLeave={handleMouseLeave}
   style={{ cursor: 'pointer' }}
@@ -28,8 +30,8 @@ export default function AnimatedPopup() {
   <div className="header-btn">
     <div className="participate-in">LAUNCH APP</div>
   </div>
+     {/*  <p style={{textAlign:"center" }} className='opacity_for_cs'>  <br/>Coming Soon</p> */}
 
-  <p style={{textAlign:"center" , color:"#fff"}}>  <br/>Coming Soon</p>
 </a>
         {/*<BasePopup anchor={anchor} open={open} withTransition>
         {(props) => (

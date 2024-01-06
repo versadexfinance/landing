@@ -19,8 +19,11 @@ import MobileNavbar from "../Navbar/MobileNavbar";
 import HeroMobile from "../components/Mobile/HeroMobile";
 import DefiMobile from '../components/Mobile/DefiMobile'
 import FooterMobile from '../components/Mobile/Footer';
+
+import FooterTab from '../components/Desktop/FooterTab';
 function YourComponent() {
   // Define your custom breakpoints
+  const LargedesktopBreakpoint = useMediaQuery("(min-width: 3000px)");
   const desktopBreakpoint = useMediaQuery("(min-width: 1450px)");
   const tabletBreakpoint = useMediaQuery("(max-width: 1449px) and (min-width: 1100px)");
   const mobileBreakpoint = useMediaQuery("(max-width: 1099px)");
@@ -50,7 +53,7 @@ function YourComponent() {
           <Yield/>
 <Defi/>
 <Contact/>
-<Footer/>
+<FooterTab/>
         </div>
       )}
       {mobileBreakpoint && (
@@ -64,6 +67,7 @@ function YourComponent() {
 
         </div>
       )}
+      
     </div>
   );
 }

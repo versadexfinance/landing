@@ -24,7 +24,7 @@ function DefiMobile() {
 <br/><br/>
 <Grid container className=''>
 
-                               <Grid item lg={6} md={6} xs={12} sm={12}>
+                               <Grid item lg={12} md={12} xs={12} sm={12} className='centeritall'>
                                <div className='centeritall'>
 <img src={Dum} style={{width:"100%"}}/>
 
@@ -44,8 +44,8 @@ function DefiMobile() {
 
                                <div className="labelp">
  <div className="flexcontainerp">
- <p className="textp">
- <span className="text-wrapperp" style={{color:"#F5FFAB" , fontWeight:"700"}}>
+ <p className="textp">      <br/><br/><br/>
+ <span className="text-wrapperp" style={{color:"#F5FFAB" , fontWeight:"500"}}>
  Whether you're a DEX User, Trader, Liquidity Provider, or Developer,<br/> Versadex's tailored solutions are ready to meet your needs.
  <br />
  </span>
@@ -62,7 +62,7 @@ function DefiMobile() {
 
                </Grid>
 
-<br/><br/>
+
 
 
 <Grid container spacing={2}>
@@ -104,14 +104,14 @@ function DefiMobile() {
 
 </Grid>
 
-<br/>
+<br/><br/><br/><br/><br/>
 <Grid container className=''>
 
                                <Grid item lg={12} md={12} xs={12} sm={12}>
-                                <div className='centeritall'>     <img src={glow} style={{width:"100%"}} /></div>
+                                <div className='centeritall'>     <img src={glow} style={{width:"70%"}} /></div>
                             
                                <p className="h_testnet_mobile">Elevate your DeFi Experience</p>
-                               <br/>
+                           
 
 
                                <div className="labelp">

@@ -151,7 +151,8 @@ const Navbar = () => {
               </li> <br/> 
               <li className="li">
                 <a
-                  href=""
+                     href='https://app.versadex.finance/swap'
+                     target="_blank"
                   onClick={() => setToggleMenu(false)}
                   style={{ color: "#fff", fontWeight: "500" , fontSize:"25px" }}
                 >

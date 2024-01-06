@@ -19,45 +19,63 @@ function Hero() {
   return (
     <div> <Divider className='dividernav' />
     
-    <div className='hero_section_bg'>
-
+    <div className='container  hero_section_bg'>
+<br/><br/>
  
            <Grid container spacing={1}>
-
-           <Grid item md={12} xs={12} lg={12}>
+           <Grid item md={3} lg={3}>
           
             
-            <img src={Check} style={{position:"relative" , top:"3rem" , left:"12rem" , width:"210px"}}  data-aos="fade-in" className='vert-move'/>
-            <img src={Check2} style={{position:"relative" , top:"13rem" , left:"59rem" , width:"210px"}}  data-aos="fade-in" className='vert-move'/>
+          <img src={Check} style={{ width:"210px"}}  data-aos="fade-in" className='vert-move liqudity'/>
+          <img src={Check2} style={{ width:"210px"}}  data-aos="fade-in" className='vert-move ai_trad'/>
+      
+
+
+
+<br/> <br/> <br/> <br/><br/><br/><br/>
+</Grid>
+<Grid item md={6} lg={6}>
+          
         
-           <div className="labeltop">
-            <br/>
- <div className="htop">
- DeFi In Your
- <br />
- Own Way
- </div>
- </div>
- <br/> <br/>
- <p className="subtext">
- Versadex  is a novel decentralized platform designed around your needs,<br/> leveraging a leading-edge versatile engine to provide a suite of innovative features <br/>for secure, seamless, and efficient financial engagements
- <br/> <br/>
+      
+         <div className="labeltop">
+          <br/><br/><br/>
+<div className="htop">
+DeFi In Your
+<br />
+Own Way
+</div>
+</div>
+<br/> 
+<p className="subtext">
+Versadex  is a novel decentralized platform designed around your needs, leveraging a leading-edge versatile engine to provide a suite of innovative features for secure, seamless, and efficient financial engagements
+<br/> 
+<br/> 
 
-
- </p>
-
-
- <img src={Check3} style={{position:"relative" , top:"1rem" , left:"20rem" , width:"210px"}} data-aos=""  className='vert-move'/>
-            <img src={Check4} style={{position:"relative" , top:"1rem" , left:"48rem" , width:"210px"}} data-aos="" className='vert-move'/>
- <a
-                  type="submit"
-                  className='centeritall'
-            >
-              <AnimatedPopup/>
-   
-            </a>
+</p>
+<a
+                type="submit"
+                className='centeritall'
+          >
+            <AnimatedPopup/>
  
- <br/> <br/> <br/> <br/><br/><br/><br/>
+          </a>
+
+
+
+<br/> <br/> <br/> <br/><br/><br/><br/>
+</Grid>
+           <Grid item md={3} xs={12} lg={3}>
+          
+            
+         
+        
+
+ <img src={Check3} style={{ width:"210px"}} data-aos=""  className='vert-move trade_ai'/>
+            <img src={Check4} style={{ width:"210px"}} data-aos="" className='vert-move dev_ai'/>
+
+ 
+
 </Grid>
 
 

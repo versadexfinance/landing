@@ -21,6 +21,8 @@ export default function AnimatedPopup() {
   ref={setAnchor}
   onClick={() => setOpen((o) => !o)}
   type="button"
+  href='https://app.versadex.finance/swap'
+  target='_blank'
   onMouseEnter={handleMouseEnter}
   onMouseLeave={handleMouseLeave}
   style={{ cursor: 'pointer' }}

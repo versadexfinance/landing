@@ -13,7 +13,7 @@ import Divider from '@mui/material/Divider';
 function Footer() {
   return (
     <div > 
-     <br/> <br/><br/>
+     <br/> <br/><br/><br/>
                <Grid container className='testnet_section'>
 
                                <Grid item lg={12} md={12} xs={12} sm={12}>
@@ -40,10 +40,13 @@ function Footer() {
           
           <div className='centeritall'>
 
-<a href='https://app.versadex.finance/swap' target='_blank'>     <div className="header-btn">
+          <a href='https://app.versadex.finance/swap' target='_blank'>
+          <div className="header-btn">
  <div className="participate-in"   style={{ cursor: 'pointer'  }}>JOIN</div>
- </div></a>
-     
+ </div>
+
+          </a>
+      
 
           </div>
           <br/><br/><br/>
@@ -51,8 +54,8 @@ function Footer() {
 
                </Grid>
 
-      <br/> 
-     
+      <br/> <br/>
+      <Divider className='dividernav' />
       <br/> <br/>
                   <Grid  container>
                   <Grid  item lg={4} xs={12} sm={12} md={4} className='left_footer_side'>
@@ -76,15 +79,15 @@ function Footer() {
 
 <Grid  item lg={4} xs={12} sm={12} md={4} className='right_footer_side'>
 
-  <a href='https://discord.com/invite/CYPXwKerhu' target='_blank'>
+<a href='https://discord.com/invite/CYPXwKerhu' target='_blank'>
      <img src={F1} style={{width:"25px"}} /></a>
        
      &nbsp;&nbsp;
-         <a href='https://twitter.com/versadex' target='_blank'>
+     <a href='https://twitter.com/versadex' target='_blank'>
      <img src={F2} style={{width:"25px"}} /></a>
 
      &nbsp;&nbsp;
-       <a href='https://www.linkedin.com/company/versadexfinance' target='_blank'>
+     <a href='https://www.linkedin.com/company/versadexfinance' target='_blank'>
      <img src={F3} style={{width:"25px"}} /></a>             
 </Grid>
                      
@@ -97,7 +100,7 @@ function Footer() {
 <Grid  item lg={12} xs={12} sm={12} md={4} className='center_footer_side'>
 
 <div className="labels">
- <p className="text-wrappers" style={{textAlign:"center"}}>VersaDex Copyright 2023. All Rights Reserved.</p>
+ <p className="text-wrappers">VersaDex Copyright 2023. All Rights Reserved.</p>
  </div>
 
                      

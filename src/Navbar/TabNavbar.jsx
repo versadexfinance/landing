@@ -49,7 +49,8 @@ const Navbar = () => {
         </li>{" "}
         <li className="p__opensans">
           <a
-            href=""
+               href='https://app.versadex.finance/swap'
+               target="_blank"
             style={{ color: "#fff", fontWeight: "500", textDecoration: "none" }}
           >
             Testnet
